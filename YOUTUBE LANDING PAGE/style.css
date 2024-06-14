@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.658);
+}
+
+.nav-left{
+    display: flex;
+   
+    align-items: center;
+}
+
+.nav-left img{
+
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+
+}
+.nav-middle{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.11);
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.nav-middle input{
+    width: 90%;
+    margin-left: 5px;
+    outline-style: none;
+    border-style: none;
+    background-color: transparent;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+   
+
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+    
+}
+.upload{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+.option-content{
+    width: 20%;
+    height: 200vh;
+    background-color: rgba(128, 128, 128, 0.103);
+    
+}
+.video-content{
+    width: 80%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    display: flex;
+}
+
+/* Option-content */
+
+
+.block{
+    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+
+}
+.block-content{
+   
+    display: flex;
+    align-items: center;
+}
+
+.block-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.block-name{
+    margin-left: 10px;
+}
+
+/* Video-content */
+
+.video-list{
+    height: 220px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.video-single{
+    
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-title{
+    
+    height: 80%;
+    width: 100%;
+
+}
+iframe{
+    
+    height: 80%;
+    width: 100%;
+}
+.channel-title{
+    
+    height: 20%;
+    width: 100%;
+
+}
+.channel-title span{
+    font-size: x-small;
+}
+.title{
+    font-weight: bolder;
+}
